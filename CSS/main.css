@@ -1,0 +1,88 @@
+body{
+  scroll-behavior: smooth;
+}
+.section1
+{
+  background-image: url(../images/events-heavenly-header.jpg);
+  background-size: cover;
+  height: 93vh;
+
+
+}
+
+.section1 div{
+  height: 93vh; background-size: cover;
+}
+.section3
+{
+  background-image: url(../images/invitation-2508607__340.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 45vh;
+  /* background-position: center center; */
+}
+.section3 div{
+  height: 45vh; background-size: cover;
+}
+h1{
+ 
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+  font-style: normal;
+}
+
+ p#one,p#two,p#three,p#four,p#o{
+  display: none;
+} 
+.sec2
+{
+  cursor: pointer;
+}
+/* p#one
+{
+  display: none;
+  height: 0vh;
+} */
+span i:hover
+{
+  color: white !important;
+
+ 
+}
+
+#sideNav
+{ width: 200px;
+  position: relative;
+  left:-200px;
+  z-index: 9999;
+  /* display: none; */
+}
+#closeBtn i{
+  color: white;
+}
+ li a:hover,#closeBtn i:hover
+ {
+  color: red !important;
+  
+ }
+
+span.v 
+ {
+  border: 1px solid  grey;
+  padding: 10px;
+
+ }
+
+ span.v:hover
+ {
+   background-color: brown;
+ }
+
+ /* #counter {
+  color: green;
+} */
+.exceeded {
+  color: red;
+}
